@@ -168,7 +168,6 @@ A seguir, é apresentada uma tabela que descreve as necessidades dos usuários c
 
 --- 
 
-Esse formato deve refletir as necessidades do **CommunityLink** de maneira detalhada e organizada, conforme as informações fornecidas! Se precisar de ajustes, posso personalizar ainda mais.
 
 # Visão geral do produto
 
