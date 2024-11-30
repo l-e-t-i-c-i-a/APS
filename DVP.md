@@ -188,7 +188,6 @@ Uma estrutura operacional do produto será apresentada na Figura 1.
 
 **Figura 1** - Arquitetura ambiental do sistema CommunityLink
 
-Criado por Maxwell Anderson no Microsoft® Visio®. O arquivo pode ser baixado aqui: [communitylink_architecture.vsdx](communitylink_architecture.vsdx).
 
 ## Custo e venda
 
