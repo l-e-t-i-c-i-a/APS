@@ -169,68 +169,70 @@ A seguir, é apresentada uma tabela que descreve as necessidades dos usuários c
 --- 
 
 
-# Visão geral do produto
+Aqui está a versão reformulada com base nas informações fornecidas:
 
-## Visão geral
+---
 
-O **CommunityLink** é um sistema de gerenciamento de comunidades e redes sociais privadas, projetado para facilitar a interação e o engajamento entre membros de comunidades específicas. O sistema oferece ferramentas para criar, organizar e gerenciar eventos, compartilhamento de informações, votações, discussões em grupos e muito mais, tudo em um ambiente seguro e personalizável.
+# Visão Geral do Produto
 
-O **CommunityLink** é um software baseado na web, acessível por meio de navegadores em dispositivos conectados à Internet, como computadores, laptops, tablets e smartphones. Sua estrutura operacional é suportada por infraestrutura de TI moderna, incluindo servidores em nuvem, banco de dados escalável e recursos de rede confiáveis.
+## Visão Geral
 
-O sistema utiliza uma arquitetura cliente-servidor, onde os usuários interagem com o software através de uma interface web amigável, enquanto os dados e processos são gerenciados no servidor. A comunicação ocorre via HTTPs, garantindo segurança e privacidade.
+O **CommunityLink** é uma plataforma digital inovadora voltada para o engajamento e o gerenciamento de ações voluntárias em comunidades sociais e ambientais. O sistema tem como objetivo facilitar a interação entre voluntários e organizações, proporcionando ferramentas para cadastrar e divulgar ações, conectar organizadores e participantes, além de permitir o acompanhamento do impacto das atividades realizadas.
 
-Além disso, o **CommunityLink** é capaz de integrar-se a outros sistemas, como plataformas de pagamento, sistemas de CRM e ferramentas de análise de dados, utilizando APIs padronizadas. Essa integração amplia as possibilidades de uso e automação para as comunidades.
+O **CommunityLink** será uma plataforma acessível via dispositivos móveis e web, proporcionando uma experiência fluída em diversos tipos de dispositivos (smartphones, tablets e desktops). Sua infraestrutura será hospedada na nuvem, garantindo alta disponibilidade, escalabilidade e segurança, com um banco de dados robusto e servidores confiáveis para o processamento de dados.
 
-Uma estrutura operacional do produto será apresentada na Figura 1.
+Com uma arquitetura cliente-servidor, os usuários interagem com o sistema por meio de uma interface intuitiva, enquanto os processos e dados são gerenciados em servidores dedicados. A comunicação entre o cliente e o servidor será feita via HTTPS, assegurando a proteção dos dados.
 
-![Arquitetura ambiental do sistema CommunityLink](../../assets/images/communitylink_architecture.jpg)
+Além disso, o **CommunityLink** será totalmente integrável com outros sistemas, como plataformas de pagamento, ferramentas de CRM e soluções de análise de dados, por meio de APIs. Essa capacidade de integração amplia as funcionalidades do sistema, oferecendo mais automação e personalização para as organizações e voluntários.
 
-**Figura 1** - Arquitetura ambiental do sistema CommunityLink
+Uma visualização da arquitetura do sistema pode ser vista abaixo:
 
+![Arquitetura do Sistema CommunityLink](../../assets/images/communitylink_architecture.jpg)
 
-## Custo e venda
+**Figura 1** - Arquitetura do sistema CommunityLink
 
-A avaliação da viabilidade econômica do **CommunityLink** é um ponto estratégico para os setores de vendas e projetos. O modelo de precificação adotado oferece opções de assinatura mensal ou anual, variando de acordo com o número de usuários e os módulos contratados. Além disso, serviços adicionais, como personalização e suporte premium, podem ser adquiridos à parte.
+## Custo e Venda
 
-Este modelo é flexível e escalável, permitindo que comunidades de diferentes portes possam utilizar o sistema de forma acessível, garantindo sustentabilidade e retorno financeiro.
+O **CommunityLink** adota um modelo de assinatura flexível, com opções mensais ou anuais, ajustadas conforme o número de usuários e módulos contratados. O modelo de negócios também contempla a venda de serviços adicionais, como customização da plataforma e suporte premium.
 
-## Licenciamento e instalação
+Esse modelo oferece escalabilidade e acessibilidade para organizações de diferentes portes, permitindo que o sistema seja utilizado por pequenas ONGs até grandes corporações com programas de voluntariado. O preço será ajustado conforme a necessidade e o porte da organização, garantindo sustentabilidade financeira.
 
-O **CommunityLink** será comercializado sob o modelo de Software como Serviço (SaaS), eliminando a necessidade de instalação local. Isso permite que os clientes utilizem o sistema diretamente na nuvem, com atualizações automáticas e suporte contínuo.
+## Licenciamento e Instalação
 
-Alternativamente, clientes que preferirem uma solução dedicada poderão optar por uma licença corporativa, com instalação em servidores próprios ou em ambientes de nuvem privada. Nesse caso, a equipe técnica da desenvolvedora auxiliará no processo de configuração e integração.
+O **CommunityLink** será oferecido como um serviço SaaS (Software como Serviço), o que elimina a necessidade de instalação local e permite acesso direto à plataforma pela web. As atualizações do sistema serão automáticas, e o suporte será contínuo para garantir o bom funcionamento da plataforma.
 
-A instalação incluirá:
+Para organizações que preferirem uma solução dedicada, será possível adquirir uma licença corporativa, permitindo a instalação em servidores privados ou em nuvens corporativas. A equipe técnica da desenvolvedora fornecerá todo o suporte necessário durante a instalação e integração do sistema.
 
-1. Configuração do ambiente de hospedagem.
+A instalação inclui os seguintes serviços:
+1. Configuração de ambiente de hospedagem.
 2. Criação e migração de banco de dados.
-3. Personalização inicial, se contratada.
-4. Fornecimento de manuais e guias detalhados para o uso.
+3. Personalização da plataforma (se contratada).
+4. Fornecimento de manuais e guias de utilização.
 
-Os clientes receberão credenciais de acesso iniciais e treinamento básico, assegurando uma implementação sem dificuldades.
+Ao final da instalação, as organizações receberão credenciais de acesso e treinamento básico, assegurando que a implementação ocorra sem dificuldades.
 
-## Características e funcionalidades de alto nível
+## Características e Funcionalidades de Alto Nível
 
-1. O sistema deve permitir o cadastro de membros e comunidades, com perfis detalhados e controle de permissões.
-2. O sistema deve possibilitar a criação e o gerenciamento de eventos, incluindo RSVP, notificações e relatórios de participação.
-3. O sistema deve oferecer funcionalidades de discussão em grupo, fóruns temáticos e enquetes para tomada de decisões coletivas.
-4. O sistema deve permitir compartilhamento de arquivos e informações, garantindo a segurança e a organização dos dados.
-5. O sistema deve ser personalizável, permitindo que cada comunidade adapte a interface e os recursos às suas necessidades.
-6. O sistema deve ter integração com plataformas de pagamento para cobranças de associações, eventos pagos ou outros serviços.
-7. O sistema deve fornecer análises detalhadas, com relatórios sobre engajamento, participação e outros indicadores relevantes.
-8. O sistema deve garantir alta disponibilidade, desempenho consistente e tempos de resposta ágeis.
-9. O sistema deve aderir às leis de proteção de dados, como a LGPD, e garantir a privacidade das informações dos usuários.
+1. **Cadastro de Membros e Comunidades**: Permite a criação de perfis de usuários e comunidades, com controle de permissões e gerenciamento de dados pessoais.
+2. **Gerenciamento de Eventos**: Ferramentas para organizar e divulgar ações, incluindo a possibilidade de RSVP, notificações e relatórios de participação.
+3. **Discussões e Enquetes**: Funcionalidades para promover debates e decisões coletivas por meio de fóruns temáticos e enquetes.
+4. **Compartilhamento de Informações**: Ferramentas seguras para upload e compartilhamento de documentos, fotos e outros conteúdos, com controle de acesso.
+5. **Personalização**: O sistema pode ser adaptado a diferentes necessidades de comunidade, com opções de customização de interface e recursos.
+6. **Integração com Sistemas de Pagamento**: Permite a cobrança de taxas de inscrição ou doações para eventos ou associações.
+7. **Análises e Relatórios**: Oferece relatórios detalhados sobre engajamento, participação e outros KPIs importantes para as organizações.
+8. **Alta Disponibilidade e Desempenho**: O sistema foi projetado para garantir tempos de resposta rápidos e operação estável, mesmo com grande volume de usuários.
+9. **Conformidade com a LGPD**: O sistema segue as normas de privacidade e proteção de dados exigidas pela LGPD, com criptografia e práticas de segurança adequadas.
 
 ## Restrições
 
-1. **Restrição de orçamento:** O desenvolvimento e a operação do sistema devem se manter dentro dos limites orçamentários definidos.
-2. **Restrição de tempo:** A entrega inicial deve ocorrer em até seis meses, com ciclos ágeis e entregas incrementais a cada quatro semanas.
-3. **Restrição de hardware:** O sistema deve operar em infraestrutura baseada na nuvem, eliminando a necessidade de hardware local específico.
-4. **Restrições de segurança e privacidade:** O sistema deve atender às regulamentações de segurança e privacidade, como a LGPD, e implementar criptografia de ponta a ponta para dados sensíveis.
-5. **Restrições de usabilidade:** O sistema deve ser acessível a usuários com diferentes níveis de familiaridade com tecnologia, incluindo suporte a acessibilidade para deficientes visuais e motores.
-6. **Restrições de interoperabilidade:** O sistema deve permitir integração com APIs de terceiros para estender suas funcionalidades.
-7. **Restrições de desempenho:** O sistema deve suportar até 10.000 usuários simultâneos na versão inicial, com escalabilidade para expandir esse limite.
-8. **Restrições de idioma:** O sistema deve ser multilíngue, suportando pelo menos português, inglês e espanhol.
+1. **Restrição de Orçamento**: O desenvolvimento e operação do sistema devem se manter dentro dos limites orçamentários definidos.
+2. **Restrição de Tempo**: A entrega inicial deve ocorrer em até seis meses, com entregas incrementais a cada quatro semanas.
+3. **Restrição de Hardware**: O sistema será 100% baseado em nuvem, eliminando a necessidade de infraestrutura de hardware local.
+4. **Segurança e Privacidade**: O sistema precisa aderir às regulamentações de segurança, como a LGPD, e implementar criptografia de ponta a ponta para dados sensíveis.
+5. **Usabilidade**: O sistema deve ser acessível a usuários com diferentes níveis de familiaridade tecnológica, incluindo funcionalidades para acessibilidade.
+6. **Interoperabilidade**: O sistema deverá permitir integração com APIs de terceiros para ampliar suas funcionalidades.
+7. **Desempenho**: O sistema deve ser capaz de suportar até 10.000 usuários simultâneos na versão inicial, com escalabilidade para aumentar esse limite conforme necessário.
+8. **Idioma**: O sistema será multilíngue, com suporte a pelo menos três idiomas: português, inglês e espanhol.
 
 ---
 
@@ -244,7 +246,7 @@ cstsi@ifpb.edu.br<br>
 CommunityLink<br>
 Av. Primeiro de Maio, 720 - Jaguaribe, João Pessoa - PB, 58015-435<br>
 BRA
-</address>  
+</address>
 
 ---  
 Criado em Novembro de 2024 por Ananda, Angélica, Letícia e Maira
