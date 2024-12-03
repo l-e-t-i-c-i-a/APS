@@ -183,7 +183,7 @@ O **CommunityLink** será uma plataforma acessível via dispositivos móveis e w
 
 Com uma arquitetura cliente-servidor, os usuários interagem com o sistema por meio de uma interface intuitiva, enquanto os processos e dados são gerenciados em servidores dedicados. A comunicação entre o cliente e o servidor será feita via HTTPS, assegurando a proteção dos dados.
 
-Além disso, o **CommunityLink** será totalmente integrável com outros sistemas, como plataformas de pagamento, ferramentas de CRM e soluções de análise de dados, por meio de APIs. Essa capacidade de integração amplia as funcionalidades do sistema, oferecendo mais automação e personalização para as organizações e voluntários.
+Além disso, o **CommunityLink** será totalmente integrável com outros sistemas, ferramentas de CRM e soluções de análise de dados, por meio de APIs. Essa capacidade de integração amplia as funcionalidades do sistema, oferecendo mais automação e personalização para as organizações e voluntários.
 
 Uma visualização da arquitetura do sistema pode ser vista abaixo:
 
@@ -193,23 +193,10 @@ Uma visualização da arquitetura do sistema pode ser vista abaixo:
 
 ## Custo e Venda
 
-O **CommunityLink** adota um modelo de assinatura flexível, com opções mensais ou anuais, ajustadas conforme o número de usuários e módulos contratados. O modelo de negócios também contempla a venda de serviços adicionais, como customização da plataforma e suporte premium.
-
-Esse modelo oferece escalabilidade e acessibilidade para organizações de diferentes portes, permitindo que o sistema seja utilizado por pequenas ONGs até grandes corporações com programas de voluntariado. O preço será ajustado conforme a necessidade e o porte da organização, garantindo sustentabilidade financeira.
-
+O **CommunityLink** adota um modelo de assinatura comunitária em que os voluntários, as ONGs e as empresas associadas contribuem voluntariamente para manutenção da hospedagem da aplicação como também para possíveis ajustes da ferramenta.
 ## Licenciamento e Instalação
 
 O **CommunityLink** será oferecido como um serviço SaaS (Software como Serviço), o que elimina a necessidade de instalação local e permite acesso direto à plataforma pela web. As atualizações do sistema serão automáticas, e o suporte será contínuo para garantir o bom funcionamento da plataforma.
-
-Para organizações que preferirem uma solução dedicada, será possível adquirir uma licença corporativa, permitindo a instalação em servidores privados ou em nuvens corporativas. A equipe técnica da desenvolvedora fornecerá todo o suporte necessário durante a instalação e integração do sistema.
-
-A instalação inclui os seguintes serviços:
-1. Configuração de ambiente de hospedagem.
-2. Criação e migração de banco de dados.
-3. Personalização da plataforma (se contratada).
-4. Fornecimento de manuais e guias de utilização.
-
-Ao final da instalação, as organizações receberão credenciais de acesso e treinamento básico, assegurando que a implementação ocorra sem dificuldades.
 
 ## Características e Funcionalidades de Alto Nível
 
@@ -218,10 +205,9 @@ Ao final da instalação, as organizações receberão credenciais de acesso e t
 3. **Discussões e Enquetes**: Funcionalidades para promover debates e decisões coletivas por meio de fóruns temáticos e enquetes.
 4. **Compartilhamento de Informações**: Ferramentas seguras para upload e compartilhamento de documentos, fotos e outros conteúdos, com controle de acesso.
 5. **Personalização**: O sistema pode ser adaptado a diferentes necessidades de comunidade, com opções de customização de interface e recursos.
-6. **Integração com Sistemas de Pagamento**: Permite a cobrança de taxas de inscrição ou doações para eventos ou associações.
-7. **Análises e Relatórios**: Oferece relatórios detalhados sobre engajamento, participação e outros KPIs importantes para as organizações.
-8. **Alta Disponibilidade e Desempenho**: O sistema foi projetado para garantir tempos de resposta rápidos e operação estável, mesmo com grande volume de usuários.
-9. **Conformidade com a LGPD**: O sistema segue as normas de privacidade e proteção de dados exigidas pela LGPD, com criptografia e práticas de segurança adequadas.
+6. **Análises e Relatórios**: Oferece relatórios detalhados sobre engajamento, participação e outros KPIs importantes para as organizações.
+7. **Alta Disponibilidade e Desempenho**: O sistema foi projetado para garantir tempos de resposta rápidos e operação estável, mesmo com grande volume de usuários.
+8. **Conformidade com a LGPD**: O sistema segue as normas de privacidade e proteção de dados exigidas pela LGPD, com criptografia e práticas de segurança adequadas.
 
 ## Restrições
 
@@ -249,4 +235,4 @@ BRA
 </address>
 
 ---  
-Criado em Novembro de 2024 por Ananda, Angélica, Letícia e Maira
+Criado em Novembro de 2024 por Ananda Guedes, Angélica Araújo, Letícia Leite e Maira Fernandes.
