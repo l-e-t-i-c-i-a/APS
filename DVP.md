@@ -187,7 +187,7 @@ Além disso, o **CommunityLink** será totalmente integrável com outros sistema
 
 Uma visualização da arquitetura do sistema pode ser vista abaixo:
 
-![Arquitetura do Sistema CommunityLink](images/aps.jpg)
+![Arquitetura do Sistema CommunityLink](images/arquitetura.jpg)
 
 **Figura 1** - Arquitetura do sistema CommunityLink
 
