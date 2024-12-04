@@ -200,14 +200,18 @@ O **CommunityLink** será oferecido como um serviço SaaS (Software como Serviç
 
 ## Características e Funcionalidades de Alto Nível
 
-1. **Cadastro de Membros e Comunidades**: Permite a criação de perfis de usuários e comunidades, com controle de permissões e gerenciamento de dados pessoais.
-2. **Gerenciamento de Eventos**: Ferramentas para organizar e divulgar ações, incluindo a possibilidade de RSVP, notificações e relatórios de participação.
-3. **Discussões e Enquetes**: Funcionalidades para promover debates e decisões coletivas por meio de fóruns temáticos e enquetes.
-4. **Compartilhamento de Informações**: Ferramentas seguras para upload e compartilhamento de documentos, fotos e outros conteúdos, com controle de acesso.
-5. **Personalização**: O sistema pode ser adaptado a diferentes necessidades de comunidade, com opções de customização de interface e recursos.
-6. **Análises e Relatórios**: Oferece relatórios detalhados sobre engajamento, participação e outros KPIs importantes para as organizações.
-7. **Alta Disponibilidade e Desempenho**: O sistema foi projetado para garantir tempos de resposta rápidos e operação estável, mesmo com grande volume de usuários.
-8. **Conformidade com a LGPD**: O sistema segue as normas de privacidade e proteção de dados exigidas pela LGPD, com criptografia e práticas de segurança adequadas.
+1. **Cadastro de Membros e Comunidades:** O sistema deverá permitir a criação de perfis de usuários e comunidades, com controle de permissões e gerenciamento de dados pessoais.
+2. **Ações de Interesse:** O sistema deverá ter uma funcionalidade de permitir ao usuário filtros de interesse (ex: desejo procurar um evento pela cidade de João Pessoa), para conexão entre usuários e divulgações de eventos.
+3. **Discussões e Enquetes:** O sistema deverá ter abas de conversação (comentários) para promover debates e decisões coletivas por meio de fóruns temáticos e enquetes.
+4. **Compartilhamento de Informações:** O sistema deve prover ferramentas seguras para upload e compartilhamento de documentos, fotos e outros conteúdos, com controle de acesso.
+5. **Personalização:** O sistema pode ser adaptado a diferentes necessidades de comunidade, com opções de customização de interface e recursos. 
+6. **Pontuação:** O sistema deve adotar a opção de pontuação para os usuários, de modo que a cada ação feita eles recebem uma quantidade determinada de pontos.
+7. **Acessibilidade:** O sistema deve em toda sua integridade ser amigável e de fácil utilização pelo usuário, comprometendo-se com o fato de ser acessível para diferentes públicos. 
+8. **Análises e Relatórios:** O sistema deve oferecer relatórios detalhados sobre engajamento, participação e outros KPIs importantes para as organizações.
+9. **Alta Disponibilidade e Desempenho:** O sistema deve ser projetado para garantir tempos de resposta rápidos e operação estável, mesmo com grande volume de usuários.
+10. **Conformidade com a LGPD:** O sistema segue as normas de privacidade e proteção de dados exigidas pela LGPD, com criptografia e práticas de segurança adequadas. Garantindo assim a segurança das informações dos usuários, com acesso restrito e controle de permissões.
+11. **Avaliação:** A aplicação deve disponibilizar a possibilidade de avaliação das ações e dos organizadores.
+12. **Gerenciamento de Eventos:** O sistema deverá disponibilizar de ferramentas para organizar e divulgar ações, incluindo a possibilidade de RSVP, notificações e relatórios de participação.
 
 ## Restrições
 
