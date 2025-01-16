@@ -14,7 +14,7 @@
 
 |    Data    | Versão |          Descrição          |      Autor       |
 | :--------: | :----: | :-------------------------: | :--------------: |
-| 16/01/2025 |  1.0   |    Criação do documento     | Maxwell Anderson |
+| 16/01/2025 |  1.0   |    Criação do documento     | Ananda Guedes, Angélica Araújo, Letícia Leite e Maira Fernandes |
 
 
 ---
