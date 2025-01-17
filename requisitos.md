@@ -91,10 +91,10 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF001]** - Como um **membro da comunidade**, eu gostaria de me cadastrar no sistema, fornecendo informações como nome, e-mail e uma senha, para que eu possa acessar as funcionalidades da plataforma.  
 - **[RF002]** - Como um **administrador da comunidade**, eu gostaria de criar eventos, fornecendo informações como título, data, descrição, local e lista de participantes, para organizar atividades comunitárias. 
 - **[RF003]** - Como um **membro da comunidade**, eu gostaria de visualizar os eventos criados e me inscrever nos que forem do meu interesse, para participar das atividades da comunidade.  
-- **[RF004]** - Como um **administrador da comunidade**, eu gostaria de gerenciar os membros, podendo aprovar ou remover usuários, para manter a organização da comunidade.  
-- **[RF005]** - Como um **patrocinador/parceiro**, eu gostaria de promover anúncios na plataforma, segmentados com base no interesse dos membros, para divulgar meus produtos e serviços. 
+- **[RF004]** - Como um **administrador da comunidade**, eu gostaria de gerenciar os membros remover usuários para manter a organização da comunidade.  
+- **[RF005]** - Como um **patrocinador/parceiro**, eu gostaria de promover anúncios na plataforma, segmentados com base no interesse dos membros, para divulgar meus produtos e serviços.
 - **[RF006]** - Como um **membro da comunidade**, eu gostaria de buscar por outros membros ou eventos usando palavras-chave, para encontrar informações específicas de maneira eficiente.  
-- **[RF007]** - Como um **administrador da comunidade**, eu gostaria de enviar notificações aos membros, para informá-los sobre atualizações importantes ou eventos futuros. 
+- **[RF007]** - Como um **administrador da comunidade**, eu gostaria de enviar notificações aos membros, para informá-los sobre atualizações importantes ou eventos futuros, como tamb[em chamar atenção caso a conduta do mesmo esteja em desacordo com os termos da aplicação. (aqui) 
 - **[RF008]** - Como um **membro da comunidade**, eu gostaria de configurar meu perfil com informações pessoais e interesses, para personalizar minha experiência na plataforma. 
 - **[RF009]** - Como um **administrador da comunidade**, eu gostaria de gerar relatórios sobre a participação nos eventos e interações dos membros, para tomar decisões baseadas em dados.
 - **[RF010]** - Como um **visitante**, eu gostaria de visualizar informações públicas sobre a comunidade, como uma lista de eventos e iniciativas, para decidir se quero participar da plataforma.
@@ -104,20 +104,16 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF014]** - Como **voluntário**, gostaria de verificar quais as regras de participação de cada ação.
 - **[RF015]** - Como **administrador**, gostaria de realizar o backup dos dados dos usuários, para que eu possa recuperar os dados em caso de falha no sistema.
 - **[RF016]** - Como **voluntário**, gostaria de realizar o download dos relatórios de participação, para que eu possa comprovar minha participação e ter uma cópia dos dados em caso de falha no sistema.
-- **[RF017]** - Como administrador, gostaria que todos os usuários realizassem login no sistema, para que eu possa ter controle sobre os acessos e possa realizar auditorias de acesso.
-- **[RF018]** - Como administrador, gostaria de oferecer aos clientes a possibilidade de realizar o login com o Google, para que eles possam ter uma experiência mais rápida e segura.
-- **[RF019]** - Como administrador, gostaria de realizar o gerenciamento de usuários.
-- **[RF020]** - Como administrador, gostaria que os usuários fossem comunicados sobre as atualizações do sistema, para que eles possam ter uma experiência mais segura e atualizada.
-- **[RF021]** - Como usuário comum, gostaria de reportar problemas no sistema, para que eu possa ajudar a melhorar a experiência dos usuários.
-- **[RF022]** - Como usuário comum, gostaria de receber notificações sobre manutenções agendadas no sistema, para que eu possa ter uma experiência mais segura e atualizada.
-- **[RF023]** - Como usuário comum, gostaria de poder me cadastrar no sistema.
-- **[RF024]** - Como usuário comum, gostaria de poder alterar o meu e-mail, para que eu possa ter uma experiência mais segura. A alteração de e-mail somente poderá ser realizada por meio de um e-mail de confirmação para acesso a uma página de alteração de e-mail.
-- **[RF025]** - Como usuário comum, gostaria de poder alterar a minha senha, para que eu possa ter uma experiência mais segura. A alteração de senha somente poderá ser realizada por meio de um e-mail de confirmação para acesso a uma página de alteração de senha.
-- **[RF026]** - Como usuário comum, gostaria de poder ativar acesso por dois fatores, para que eu possa ter uma experiência mais segura.
-- **[RF027]** - Como usuário comum, gostaria que minha senha fosse criptografada, para que eu possa ter uma experiência mais segura. A troca de senha somente poderá ser realizada por meio de um e-mail de confirmação para acesso a uma página de troca de senha.
-- **[RF028]** - Como administrador, gostaria que o sistema realizasse a verificação sobre se atende aos requisitos mínimos de hardware e software para a execução do sistema, e caso não atenda, deve exibir uma mensagem de erro informando o motivo.
-- **[RF029]** - Como usuário comum, gostaria de verificar quais as regras de privacidade e uso de dados de maneira resumida e simplificada, para que eu possa ter uma experiência mais segura. As regras de privacidade e uso de dados também devem ser apresentadas em uma página de termos de uso e política de privacidade, que deve ser acessível a partir do rodapé do site, a partir da página de cadastro e da página de regras simplificadas.
-- **[RF030]** - Como usuário gostaria de ler informações em meu idioma, para que eu possa ter uma experiência mais agradável. O sistema deve ser desenvolvido de forma que possa ser traduzido para outros idiomas, priorizando o inglês, o espanhol e o português do Brasil.
+- **[RF017]** - Como **administrador**, gostaria de oferecer aos usuários a possibilidade de realizar o login com o Google, para que eles possam ter uma experiência mais rápida e segura.
+- **[RF018]** - Como **administrador**, gostaria que os usuários fossem comunicados sobre as atualizações do sistema, para que eles possam ter uma experiência mais segura e atualizada.
+- **[RF019]** - Como **usuário comum**, gostaria de reportar problemas no sistema, para que eu possa ajudar a melhorar a experiência dos usuários.
+- **[RF020]** - Como **usuário comum**, gostaria de receber notificações sobre manutenções agendadas no sistema, para que eu possa ter uma experiência mais segura e atualizada.
+- **[RF021]** - Como **usuário comum**, gostaria de poder alterar o meu e-mail, para que eu possa ter uma experiência mais segura. A alteração de e-mail somente poderá ser realizada por meio de um e-mail de confirmação para acesso a uma página de alteração de e-mail.
+- **[RF022]** - Como **usuário comum**, gostaria de poder alterar a minha senha, para que eu possa ter uma experiência mais segura. A alteração de senha somente poderá ser realizada por meio de um e-mail de confirmação para acesso a uma página de alteração de senha.
+- **[RF023]** - Como **usuário comum**, gostaria de poder ativar acesso por dois fatores, para que eu possa ter uma experiência mais segura.
+- **[RF024]** - Como **usuário comum**, gostaria que minha senha fosse criptografada, para que eu possa ter uma experiência mais segura. A troca de senha somente poderá ser realizada por meio de um e-mail de confirmação para acesso a uma página de troca de senha.
+- **[RF025]** - Como **usuário comum**, gostaria de verificar quais as regras de privacidade e uso de dados de maneira resumida e simplificada, para que eu possa ter uma experiência mais segura. As regras de privacidade e uso de dados também devem ser apresentadas em uma página de termos de uso e política de privacidade, que deve ser acessível a partir do rodapé do site, a partir da página de cadastro e da página de regras simplificadas.
+- **[RF026]** - Como **usuário** gostaria de ler informações em meu idioma, para que eu possa ter uma experiência mais agradável. O sistema deve ser desenvolvido de forma que possa ser traduzido para outros idiomas, priorizando o inglês, o espanhol e o português do Brasil.
 
 # Requisitos não-funcionais
 
@@ -193,4 +189,4 @@ A matriz de rastreabilidade é apresentada a seguir.
 |  RNF013  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
 |  RNF014  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     | X     | X     | X     | X     |
 
-Criado em Abril de 2023 por _Maxwell Anderson_
+Referencia: _Maxwell Anderson_ Abril de 2023.
