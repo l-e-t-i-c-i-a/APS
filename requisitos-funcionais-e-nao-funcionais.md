@@ -51,7 +51,7 @@ O objetivo deste documento é apresentar os requisitos de software do produto **
 
 Esta subseção fornece as definições de todos os termos, acrônimos e abreviações necessárias para a interpretação adequada deste Documento de Requisitos, incluindo suas prioridades de acordo com a matriz GUT (Gravidade, Urgência, Tendência).
 
-Identificação dos requisitos: os **requisitos funcionais** estão divididos em módulos enumerados, conforme suas areas de desenvolvimento. Os **requisitos não funcionais** estão dividos por categoria, quais sejam: Disponibilidade, Privacidade e segurança, Usabilidade, Suportabilidade, Interoperabilidade, Manutenibilidade, Desempenho e Implementação. Ambos (funcionais ou não) são identificados com o prefixo referente ao tipo de requisito e um número sequencial. A estrutura do identificador é a seguinte:
+Identificação dos requisitos: os **requisitos funcionais** estão divididos em módulos enumerados. Os **requisitos não funcionais** estão dividos por categoria, quais sejam: Disponibilidade, Privacidade e segurança, Usabilidade, Suportabilidade, Interoperabilidade, Manutenibilidade, Desempenho e Implementação. Ambos (funcionais ou não) são identificados com o prefixo referente ao tipo de requisito e um número sequencial. A estrutura do identificador é a seguinte:
 
 [IDENTIFICADOR DO TIPO DE REQUISITOS]-[IDENTIFICADOR NUMÉRICO]
 
