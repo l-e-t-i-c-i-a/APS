@@ -58,45 +58,34 @@ Identificação dos requisitos: os **requisitos funcionais** estão divididos em
 Onde o identificador do tipo de requisito é uma sigla conforme abaixo:
 
 **RF** – Requisito Funcional
-
 **RNF** – Requisito Não-Funcional
-
 **NR** – Não-Requisito
 
 O identificador numérico será sequencial e único para todo o conjunto de requisitos.
-
 Exemplo: RF0001, RF1234, RNF1234, NR1212
 
 Atributos dos Requisitos: os requisitos são classificados e possuem os seguintes atributos essenciais para sua gestão:
-
 Prioridade (GUT):
 
 **Gravidade (G):** Define o impacto do requisito caso não seja atendido. A gravidade é classificada em 3 níveis:
 
 5 - Alta Gravidade
-
 3 - Média Gravidade
-
 1 - Baixa Gravidade
 
 **Urgência (U):** Determina a necessidade de implementação do requisito dentro de um prazo específico. A urgência é classificada em 3 níveis:
 
 5 - Urgente
-
 3 - Moderada
-
 1 - Baixa Urgência
 
 **Tendência (T):** Avalia o risco do requisito se tornar mais crítico com o tempo. A tendência é classificada em 3 níveis:
 
 5 - Tendência Alta (o problema tende a piorar)
-
 3 - Tendência Moderada
-
 1 - Tendência Baixa (não tende a se agravar)
 
 <u>Complexidade:</u> Nível de dificuldade para implementar o requisito, classificado como Complexo, Alto, Médio ou Baixo.
-
 <u>Risco:</u> Nível de risco associado à implementação do requisito, classificado como Alto, Médio ou Baixo.
 
 # Usuários identificados
