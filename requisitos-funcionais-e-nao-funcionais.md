@@ -69,29 +69,42 @@ Exemplo: RF0001, RF1234, RNF1234, NR1212
 Atributos dos Requisitos: os requisitos são classificados e possuem os seguintes atributos essenciais para sua gestão:
 Prioridade (GUT):
 
-**Gravidade (G):** Define o impacto do requisito caso não seja atendido. A gravidade é classificada em 3 níveis:
+**Gravidade (G):** Define o impacto do requisito caso não seja atendido:
 
-5 - Alta Gravidade
+1 - Sem gravidade
 
-3 - Média Gravidade
+2 - Pouco grave
 
-1 - Baixa Gravidade
+3 - Grave
+
+4 - Muito grave
+
+5 - Os prejuízos ou dificuldade são extremamente graves
+
 
 **Urgência (U):** Determina a necessidade de implementação do requisito dentro de um prazo específico. A urgência é classificada em 3 níveis:
 
-5 - Urgente
+1 - Não tem pressa
 
-3 - Moderada
+2 - Pode esperar um pouco
 
-1 - Baixa Urgência
+3 - O mais cedo possível
+
+4 - Com alguma urgência
+
+5 - É necessária uma ação imediata
 
 **Tendência (T):** Avalia o risco do requisito se tornar mais crítico com o tempo. A tendência é classificada em 3 níveis:
 
-5 - Tendência Alta (o problema tende a piorar)
+1 - Não vai piorar
 
-3 - Tendência Moderada
+2 - Vai piorar a longo prazo
 
-1 - Tendência Baixa (não tende a se agravar)
+3 - Vai piorar a médio prazo
+
+4 - Vai piorar em pouco tempo
+
+5 - Se nada for feito, a situação irá piorar rapidamente
 
 <u>Complexidade:</u> Nível de dificuldade para implementar o requisito, classificado como Complexo, Alto, Médio ou Baixo.
 <u>Risco:</u> Nível de risco associado à implementação do requisito, classificado como Alto, Médio ou Baixo.
