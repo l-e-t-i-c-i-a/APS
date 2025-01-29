@@ -49,27 +49,42 @@ O objetivo deste documento é apresentar os requisitos de software do produto **
 
 ## Definições, Acrônimos e Abreviações
 
-Esta subseção fornece as definições de todos os termos, acrônimos e abreviações necessárias à adequada interpretação do Documento de Requisitos.
+Esta subseção fornece as definições de todos os termos, acrônimos e abreviações necessárias para a interpretação adequada deste Documento de Requisitos, incluindo suas prioridades de acordo com a matriz GUT (Gravidade, Urgência, Tendência).
 
-- Identificação dos requisitos: por convenção, a referência a requisitos é feita através do identificador de requisitos, de acordo como descrito abaixo:
+Identificação dos requisitos: os requisitos funcionais estão divididos em módulos enumerados, conforme suas areas de desenvolvimento. Os requisitos não funcionais estão dividos por categoria, quais sejam: Disponibilidade, Privacidade e segurança, Usabilidade, Suportabilidade, Interoperabilidade, Manutenibilidade, Desempenho e Implementação. Ambos (funcionais ou não) são identificados com o prefixo referente ao tipo de requisito e um número sequencial. A estrutura do identificador é a seguinte:
 
-  `[IDENTIFICADOR DO TIPO DE REQUISITOSidentificador do requisito]`
+[IDENTIFICADOR DO TIPO DE REQUISITOS]-[IDENTIFICADOR NUMÉRICO]
 
-  O identificador do tipo de requisitos é conforme abaixo:
+Onde o identificador do tipo de requisito é uma sigla conforme abaixo:
 
-  - RF – Requisito Funcional
-  - RNF – Requisito Não-Funcional
-  - NR – Não-Requisito
+RF – Requisito Funcional
+RNF – Requisito Não-Funcional
+NR – Não-Requisito
+O identificador numérico será sequencial e único para todo o conjunto de requisitos.
 
-  O identificador do requisito será uma sequência numérica. Esse número sequencial será único para todo o conjunto de tipos de requisitos.
+Exemplo: RF0001, RF1234, RNF1234, NR1212
 
-  **Exemplo**: RF0001, RF1234, RNF1234, NR1212
+Atributos dos Requisitos: os requisitos são classificados e possuem os seguintes atributos essenciais para sua gestão:
 
-- Atributos dos Requisitos: os atributos de requisitos estabelecidos são:
-  - **Requisitos vinculados**: fornece uma lista dos requisitos que mantém rastreabilidade.
-  - **Prioridade**: Essencial, Importante, Desejável
-  - **Complexidade**: Complexa, Alta, Média ou Baixa.
-  - **Risco**: Alto, Médio, Baixo
+Prioridade (GUT):
+
+Gravidade (G): Define o impacto do requisito caso não seja atendido. A gravidade é classificada em 3 níveis:
+5 - Alta Gravidade
+3 - Média Gravidade
+1 - Baixa Gravidade
+Urgência (U): Determina a necessidade de implementação do requisito dentro de um prazo específico. A urgência é classificada em 3 níveis:
+5 - Urgente
+3 - Moderada
+1 - Baixa Urgência
+Tendência (T): Avalia o risco do requisito se tornar mais crítico com o tempo. A tendência é classificada em 3 níveis:
+5 - Tendência Alta (o problema tende a piorar)
+3 - Tendência Moderada
+1 - Tendência Baixa (não tende a se agravar)
+Requisitos vinculados: lista de requisitos com rastreabilidade entre eles, indicando dependências ou relações.
+
+Complexidade: Nível de dificuldade para implementar o requisito, classificado como Complexo, Alto, Médio ou Baixo.
+
+Risco: Nível de risco associado à implementação do requisito, classificado como Alto, Médio ou Baixo.
 
 # Usuários identificados
 
