@@ -134,7 +134,7 @@ Os requisitos funcionais são descritos a seguir.
 | RF002 | Como um administrador da comunidade, eu gostaria de realizar backup de todos os dados, para garantir a segurança da informação. | 5 | 5 | 5 | 125 |
 | RF003 | Como um administrador da comunidade, eu gostaria de enviar notificações aos membros, para informá-los sobre atualizações importantes ou eventos futuros, como também chamar atenção caso a conduta do mesmo esteja em desacordo com os termos da aplicação. | 4 | 4 | 3 | 48  |
 | RF004 | Como um administrador da comunidade, eu gostaria de gerenciar os membros, remover usuários para manter a organização da comunidade. | 3 | 3 | 3 | 27  |
-| RF005 | Como um administrador da comunidade, eu gostaria de gerar relatórios sobre a participação nos eventos e interações dos membros, para tomar decisões baseadas em dados. | 2 | 3 | 3 | 18  |
+| RF005 | Como um administrador da comunidade, eu gostaria de gerar relatórios sobre a participação, ou seja, a quantidade de pessoas que participaram como voluntários, a quantidade das pessoas que foram beneficiadas, a data em que ocorreu, bem como sua duração. A depender do tipo de ação. No caso de doações monetárias: o total arrecadado e onde este dinheiro foi escoado. No caso de doações bens materiais: (objetos de casa, vestuário, comida, itens de higiene) também devem ser listadas e quantificadas. Estes relários são importaras na tomada de decisões e noções de impactos sociais baseadas em dados. | 2 | 3 | 3 | 18  |
 
 ## Módulo 2 - Membro da Comunidade
 
@@ -191,10 +191,10 @@ Os requisitos não-funcionais são descritos a seguir.
 
 | ID    | Requisitos Não Funcionais                                                                 | G | U | T | P   |
 |-------|--------------------------------------------------------------------------------------------|---|---|---|-----|
-| RNF001 | O sistema deve ser desenvolvido de forma que possa ser implantado em qualquer plataforma. | 5 | 5 | 5 | 125 |
+| RNF001 | O sistema deve ser desenvolvido de forma que possa ser implantado em plataformas web. | 5 | 5 | 5 | 125 |
 | RNF002 | O sistema deve estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano.    | 5 | 5 | 5 | 125 |
 | RNF003 | O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho. | 5 | 5 | 5 | 125 |
-| RNF004 | O sistema deve ser desenvolvido de forma que possa ser executado em qualquer dispositivo com conexão offline, e com posterior sincronização dos dados com o servidor. | 4 | 3 | 3 | 36  |
+| RNF004 | O sistema deve ser desenvolvido de forma que possa ser executado em qualquer dispositivo com conexão offline conforme RNF 401. | 4 | 3 | 3 | 36  |
 
 ## Privacidade e segurança
 
@@ -215,7 +215,7 @@ Os requisitos não-funcionais são descritos a seguir.
 
 | ID    | Requisitos Não Funcionais                                                                 | G | U | T | P   |
 |-------|--------------------------------------------------------------------------------------------|---|---|---|-----|
-| RNF400 | O sistema deve ser desenvolvido de forma que possa ser executado em aplicativos nativos para Android e iOS. | 5 | 5 | 5 | 125 |
+| RNF400 | O sistema deve ser desenvolvido de forma que possa ser executado em aplicativos nativos para Android e iOS, conforme a RNF 400. | 5 | 5 | 5 | 125 |
 | RNF401 | O sistema deve ser desenvolvido de forma que possa ser executado nos três principais navegadores da web: Google Chrome, Mozilla Firefox e Microsoft Edge através de um computador com sistema operacional Windows, Linux ou Mac OS, bem como tablets e smartphones com sistema operacional Android ou iOS. | 4 | 3 | 3 | 36  |
 
 ## Interoperabilidade
