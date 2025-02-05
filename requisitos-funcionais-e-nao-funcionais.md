@@ -130,11 +130,11 @@ Os requisitos funcionais são descritos a seguir.
 
 | ID    | Requisitos Funcionais                                                                 | G | U | T | P   |
 |-------|----------------------------------------------------------------------------------------|---|---|---|-----|
-| RF000 | Como um administrador da comunidade, eu gostaria de criar eventos, fornecendo informações como título, data, descrição, local e lista de participantes, para organizar atividades comunitárias. | 5 | 5 | 5 | 125 |
-| RF001 | Como um administrador da comunidade, eu gostaria de realizar backup de todos os dados, para garantir a segurança da informação. | 5 | 5 | 5 | 125 |
-| RF002 | Como um administrador da comunidade, eu gostaria de enviar notificações aos membros, para informá-los sobre atualizações importantes ou eventos futuros, como também chamar atenção caso a conduta do mesmo esteja em desacordo com os termos da aplicação. | 4 | 4 | 3 | 48  |
-| RF003 | Como um administrador da comunidade, eu gostaria de gerenciar os membros, remover usuários para manter a organização da comunidade. | 3 | 3 | 3 | 27  |
-| RF004 | Como um administrador da comunidade, eu gostaria de gerar relatórios sobre a participação nos eventos e interações dos membros, para tomar decisões baseadas em dados. | 2 | 3 | 3 | 18  |
+| RF001 | Como um administrador da comunidade, eu gostaria de criar eventos, fornecendo informações como título, data, descrição, local e lista de participantes, para organizar atividades comunitárias. | 5 | 5 | 5 | 125 |
+| RF002 | Como um administrador da comunidade, eu gostaria de realizar backup de todos os dados, para garantir a segurança da informação. | 5 | 5 | 5 | 125 |
+| RF003 | Como um administrador da comunidade, eu gostaria de enviar notificações aos membros, para informá-los sobre atualizações importantes ou eventos futuros, como também chamar atenção caso a conduta do mesmo esteja em desacordo com os termos da aplicação. | 4 | 4 | 3 | 48  |
+| RF004 | Como um administrador da comunidade, eu gostaria de gerenciar os membros, remover usuários para manter a organização da comunidade. | 3 | 3 | 3 | 27  |
+| RF005 | Como um administrador da comunidade, eu gostaria de gerar relatórios sobre a participação nos eventos e interações dos membros, para tomar decisões baseadas em dados. | 2 | 3 | 3 | 18  |
 
 ## Módulo 2 - Membro da Comunidade
 
@@ -191,10 +191,10 @@ Os requisitos não-funcionais são descritos a seguir.
 
 | ID    | Requisitos Não Funcionais                                                                 | G | U | T | P   |
 |-------|--------------------------------------------------------------------------------------------|---|---|---|-----|
-| RNF000 | O sistema deve ser desenvolvido de forma que possa ser implantado em qualquer plataforma. | 5 | 5 | 5 | 125 |
-| RNF001 | O sistema deve estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano.    | 5 | 5 | 5 | 125 |
-| RNF002 | O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho. | 5 | 5 | 5 | 125 |
-| RNF003 | O sistema deve ser desenvolvido de forma que possa ser executado em qualquer dispositivo com conexão offline, e com posterior sincronização dos dados com o servidor. | 4 | 3 | 3 | 36  |
+| RNF001 | O sistema deve ser desenvolvido de forma que possa ser implantado em qualquer plataforma. | 5 | 5 | 5 | 125 |
+| RNF002 | O sistema deve estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano.    | 5 | 5 | 5 | 125 |
+| RNF003 | O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho. | 5 | 5 | 5 | 125 |
+| RNF004 | O sistema deve ser desenvolvido de forma que possa ser executado em qualquer dispositivo com conexão offline, e com posterior sincronização dos dados com o servidor. | 4 | 3 | 3 | 36  |
 
 ## Privacidade e segurança
 
