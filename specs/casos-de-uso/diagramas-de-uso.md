@@ -30,7 +30,7 @@
   - [Código UML](#código-uml)
 
 ---
-## Diagrama de Caso de Uso Geral
+## Diagrama de Casos de Uso Geral
 ![Diagrama de Uso Geral do CommunityLink](../../images/diagrama-de-caso-de-uso-geral.png)
 
 **Figura 1** - Diagrama de Casos de Uso Geral do CommunityLink
