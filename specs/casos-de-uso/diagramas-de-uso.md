@@ -42,7 +42,7 @@
 
 ## Especificação Descritiva dos Casos de Uso
 
-## Caso de Uso UC01 - Criar eventos
+### Caso de Uso UC01 - Criar eventos
 
 **Objetivo**
 Permitir que o ator crie eventos na plataforma para organização de atividades comunitárias.
@@ -77,7 +77,7 @@ O ator deve estar está logado no sistema e acessa a opção de criar um novo ev
 
 ---
 
-## Caso de Uso UC02 - Realizar backup de dados
+### Caso de Uso UC02 - Realizar backup de dados
 
 **Objetivo**
 Permitir que o ator faça backup dos dados da plataforma para garantir a segurança da informação.
@@ -106,7 +106,7 @@ Nenhum.
 
 ---
 
-## Caso de Uso UC03 - Enviar notificações
+### Caso de Uso UC03 - Enviar notificações
 
 **Objetivo**
 Permitir que o ator envie notificações para os membros informando sobre atualizações ou eventos futuros.
@@ -135,7 +135,7 @@ O ator deve estar autenticado no sistema.
 
 ---
 
-## Caso de Uso UC04 - Gerenciar membros
+### Caso de Uso UC04 - Gerenciar membros
 
 **Objetivo**
 Permitir que o ator gerencie os membros cadastrados, podendo removê-los caso necessário.
@@ -165,7 +165,7 @@ O ator deve estar autenticado no sistema.
 
 ---
 
-## Caso de Uso UC05 - Gerar relatórios
+### Caso de Uso UC05 - Gerar relatórios
 
 **Objetivo**
 Permitir que o ator gere relatórios sobre a participação dos membros em eventos e atividades.
@@ -193,7 +193,7 @@ Nenhum.
 
 ---
 
-## Caso de Uso UC06 - Cadastrar-se no sistema
+### Caso de Uso UC06 - Cadastrar-se no sistema
 
 **Objetivo**
 Permitir que o ator crie uma conta na plataforma, fornecendo informações básicas.
@@ -374,9 +374,9 @@ O ator acessa a página de cadastro do sistema.
 
 **Fluxos de exceção:** Nenhum.
 
+---
 
-
-## Caso de uso UC14 - Promover anúncios
+### Caso de uso UC14 - Promover anúncios
 **Objetivo:** Permitir que o ator promova anúncios na plataforma para divulgar produtos e serviços.
 
 **Requisitos:** RF400
@@ -429,7 +429,253 @@ O ator acessa a página de cadastro do sistema.
 
 **Fluxos de exceção:**  
 - **[EX9 - Nenhuma métrica disponível]:** Caso um anúncio ainda não tenha métricas suficientes, o sistema informa ao ator.  
-- **[EX10 - Problemas na exportação]:** Caso ocorra uma falha na geração do relatório, o sistema exibe uma mensagem de erro e sugere uma nova tentativa.  
+- **[EX10 - Problemas na exportação]:** Caso ocorra uma falha na geração do relatório, o sistema exibe uma mensagem de erro e sugere uma nova tentativa.
+
+---
+
+### Caso de uso UC16 - Gerenciar login e acessos
+**Objetivo:** Permitir que o administrador gerencie o acesso dos usuários à plataforma.
+
+**Requisitos:** RF500
+
+**Atores:** Administrador do Sistema
+
+**Condição de entrada:** O ator acessa o painel de administração e seleciona a opção ‘Gerenciar login e acessos’.
+
+**Fluxo principal:**  
+1. O ator acessa a opção ‘Gerenciar login e acessos’.  
+2. O sistema exibe a lista de usuários cadastrados.  
+3. O ator pode ativar, desativar ou redefinir acessos de usuários.  
+4. O sistema aplica as mudanças e notifica os usuários afetados.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - Usuário não encontrado]: Caso o usuário não esteja cadastrado, o sistema exibe uma mensagem de erro.  
+- [RN2 - Falha na atualização]: Caso ocorra erro ao salvar as alterações, o sistema exibe uma mensagem e sugere nova tentativa.  
+
+---
+
+### Caso de uso UC17 - Realizar backup do sistema
+**Objetivo:** Permitir que o administrador realize backups dos dados da plataforma.
+
+**Requisitos:** RF501
+
+**Atores:** Administrador do Sistema
+
+**Condição de entrada:** O ator acessa a plataforma e seleciona a opção ‘Backup do sistema’.
+
+**Fluxo principal:**  
+1. O ator acessa a opção ‘Backup do sistema’.  
+2. O sistema exibe as opções de backup disponíveis.  
+3. O ator seleciona a opção desejada e inicia o backup.  
+4. O sistema processa e armazena o backup.  
+5. O sistema notifica o sucesso da operação.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - Falha no backup]: Caso ocorra erro, o sistema exibe mensagem e sugere nova tentativa.  
+
+---
+
+### Caso de uso UC18 - Habilitar login com Google
+**Objetivo:** Permitir que os usuários façam login utilizando sua conta Google.
+
+**Requisitos:** RF502
+
+**Atores:** Administrador do Sistema
+
+**Condição de entrada:** O ator acessa a plataforma e seleciona a opção ‘Habilitar login com Google’.
+
+**Fluxo principal:**  
+1. O ator acessa as configurações de autenticação.  
+2. O sistema exibe a opção para ativar login com Google.  
+3. O ator habilita a opção e fornece as credenciais necessárias.  
+4. O sistema configura a autenticação e salva as alterações.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - Falha na autenticação]: Caso ocorra erro, o sistema exibe mensagem e permite nova tentativa.  
+
+---
+
+### Caso de uso UC19 - Notificar usuários sobre atualizações
+**Objetivo:** Permitir que o administrador envie notificações sobre atualizações da plataforma.
+
+**Requisitos:** RF503
+
+**Atores:** Administrador do Sistema
+
+**Condição de entrada:** O ator acessa a plataforma e seleciona a opção ‘Notificar usuários’.
+
+**Fluxo principal:**  
+1. O ator acessa a seção de notificações.  
+2. O sistema exibe um formulário para envio da notificação.  
+3. O ator redige a mensagem e seleciona o público-alvo.  
+4. O sistema envia a notificação para os usuários.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - Falha no envio]: Caso ocorra erro, o sistema exibe uma mensagem e sugere nova tentativa.  
+
+---
+
+### Caso de uso UC20 - Acessar regras de privacidade
+**Objetivo:** Permitir que os usuários consultem as regras de privacidade da plataforma.
+
+**Requisitos:** RF600
+
+**Atores:** Usuário do Sistema
+
+**Condição de entrada:** O ator acessa a plataforma e seleciona a opção ‘Regras de privacidade’.
+
+**Fluxo principal:**  
+1. O ator acessa a seção ‘Regras de privacidade’.  
+2. O sistema exibe as diretrizes de privacidade.  
+3. O ator pode pesquisar ou filtrar regras específicas.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:** Nenhum.  
+
+---
+
+### Caso de uso UC21 - Alterar e-mail
+**Objetivo:** Permitir que o usuário atualize seu e-mail cadastrado.
+
+**Requisitos:** RF601
+
+**Atores:** Usuário Comum
+
+**Condição de entrada:** O ator acessa a opção ‘Configurações de conta’.
+
+**Fluxo principal:**  
+1. O ator acessa as configurações de conta.  
+2. O sistema exibe a opção para alterar e-mail.  
+3. O ator insere o novo e-mail e confirma.  
+4. O sistema valida e salva a alteração.  
+5. O sistema envia um e-mail de confirmação.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - E-mail inválido]: Caso o e-mail fornecido seja inválido, o sistema exibe um erro.  
+
+---
+
+### Caso de uso UC22 - Alterar senha
+**Objetivo:** Permitir que o usuário altere sua senha.
+
+**Requisitos:** RF602
+
+**Atores:** Usuário Comum
+
+**Condição de entrada:** O ator acessa a opção ‘Configurações de conta’.
+
+**Fluxo principal:**  
+1. O ator acessa as configurações de conta.  
+2. O sistema exibe a opção para alterar senha.  
+3. O ator insere a senha atual e a nova senha.  
+4. O sistema valida e salva a alteração.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - Senha inválida]: Caso a senha não cumpra os requisitos mínimos, o sistema exibe um erro.  
+
+---
+
+### Caso de uso UC23 - Ativar autenticação em dois fatores
+**Objetivo:** Permitir que os usuários ativem a autenticação em dois fatores (2FA).
+
+**Requisitos:** RF603
+
+**Atores:** Usuário Comum
+
+**Condição de entrada:** O ator acessa a opção ‘Configurações de segurança’.
+
+**Fluxo principal:**  
+1. O ator acessa a seção de segurança.  
+2. O sistema exibe a opção para ativar 2FA.  
+3. O ator ativa a opção e fornece um número de telefone ou aplicativo autenticador.  
+4. O sistema gera e exibe um código de verificação.  
+5. O ator insere o código e confirma a ativação.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - Código inválido]: Caso o código inserido seja incorreto, o sistema exibe um erro.  
+
+---
+
+Aqui estão as especificações para os casos de uso UC24, UC25 e UC26 seguindo o modelo que você forneceu:
+
+### Caso de uso UC24 - Reportar problemas
+**Objetivo:** Permitir que os usuários comuniquem problemas encontrados no sistema.
+
+**Requisitos:** RF605
+
+**Atores:** Usuário Comum
+
+**Condição de entrada:** O ator deseja relatar um problema no sistema.
+
+**Fluxo principal:**  
+1. O ator acessa a opção “Reportar Problema” no menu de configurações.  
+2. O sistema exibe um formulário para o ator preencher os detalhes do problema (descrição, tipo de problema, etc.).  
+3. O ator preenche as informações solicitadas e envia o formulário.  
+4. O sistema registra o problema e confirma o envio da notificação ao suporte.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - Dados incompletos]: Caso o ator não preencha todos os campos obrigatórios, o sistema exibe uma mensagem de erro pedindo para completar os campos obrigatórios.
+
+---
+
+### Caso de uso UC25 - Receber notificações de manutenção
+**Objetivo:** Permitir que os usuários sejam informados sobre manutenções programadas no sistema.
+
+**Requisitos:** RF606
+
+**Atores:** Usuário Comum
+
+**Condição de entrada:** O sistema precisa notificar o usuário sobre manutenção.
+
+**Fluxo principal:**  
+1. O sistema detecta que há uma manutenção programada.  
+2. O sistema envia uma notificação para os usuários sobre a data, horário e duração da manutenção.  
+3. O ator recebe a notificação e pode consultar detalhes sobre a manutenção, se necessário.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - Falha ao enviar notificação]: Caso a notificação não seja enviada corretamente, o sistema registra o erro e tenta reenvio.  
+
+---
+
+### Caso de uso UC26 - Acessar sistema em múltiplos idiomas
+**Objetivo:** Permitir que o sistema seja acessado em diferentes idiomas.
+
+**Requisitos:** RF607
+
+**Atores:** Usuário Comum
+
+**Condição de entrada:** O ator deseja acessar o sistema em um idioma diferente do padrão.
+
+**Fluxo principal:**  
+1. O ator acessa o sistema.  
+2. O sistema apresenta uma opção para selecionar o idioma preferido.  
+3. O ator escolhe o idioma desejado (por exemplo, inglês, espanhol ou português).  
+4. O sistema exibe a interface do usuário no idioma selecionado.  
+
+**Fluxos alternativos:** Nenhum.  
+
+**Fluxos de exceção:**  
+- [RN1 - Idioma não disponível]: Caso o idioma selecionado não esteja disponível, o sistema exibe uma mensagem informando sobre a indisponibilidade e mantém o idioma padrão.  
+
 
 
 
