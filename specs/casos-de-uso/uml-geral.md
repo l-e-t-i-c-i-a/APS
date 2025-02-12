@@ -3,7 +3,8 @@ https://editor.plantuml.com/uml/
 ---
 
 - Código UML:
-
+  
+```plantuml
 @startuml
 
 left to right direction
@@ -58,6 +59,7 @@ AC --> UC03
 AC --> UC04
 AC --> UC05
 AC --> UC09
+AC --> UC12
 
 MC --> UC09
 MC --> UC10
@@ -93,3 +95,4 @@ UC09 <. UC05: <<extend>>
 UC09 <. UC11: <<extend>>
 
 @enduml
+
