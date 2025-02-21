@@ -32,7 +32,7 @@
 
 ---
 ## Diagrama de Casos de Uso Geral
-![Diagrama de Uso Geral do CommunityLink](../../images/uml-geral-corrigido.png)
+![Diagrama de Uso Geral do CommunityLink](../../images/uml-geral-correcao.png)
 
 **Figura 1** - Diagrama de Casos de Uso Geral do CommunityLink
 
