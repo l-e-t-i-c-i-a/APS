@@ -28,7 +28,7 @@ rectangle CommunityLink {
     usecase "Criar eventos" as uc_criar_evento
     usecase "Realizar backup de dados" as uc_realizar_backup
     usecase "Enviar notificações" as uc_enviar_notificações
-    usecase "Gerenciar membros" as uc_gerenciar_membros
+    usecase "Manter cadastro" as uc_manter_cadastro
     usecase "Gerar relatórios" as uc_gerar_relatórios
     usecase "Cadastrar-se no sistema" as uc_cadastrar_no_sistema
     usecase "Visualizar eventos" as uc_visualizar_eventos
@@ -58,7 +58,7 @@ rectangle CommunityLink {
 AC -- uc_criar_evento
 AC -- uc_realizar_backup
 AC -- uc_enviar_notificações
-AC -- uc_gerenciar_membros
+AC -- uc_manter_cadastro
 AC -- uc_gerar_relatórios
 AC -- uc_buscar_eventos_que_ja_participou
 AC -- uc_buscar_membros_ou_eventos
@@ -77,6 +77,7 @@ AS -- uc_manter_permissões_de_acesso
 AS -- uc_auditar_acessos
 AS -- uc_notificar_usuarios_sobre_atualizações
 AS -- uc_realizar_backup_do_sistema
+AS -- uc_manter_cadastro
 
 UC -- uc_realizar_oauth_google
 UC -- uc_cadastrar_no_sistema
