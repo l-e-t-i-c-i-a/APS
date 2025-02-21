@@ -28,7 +28,7 @@ rectangle CommunityLink {
     usecase "Criar eventos" as uc_criar_evento
     usecase "Realizar backup de dados" as uc_realizar_backup
     usecase "Enviar notificações" as uc_enviar_notificações
-    usecase "Manter cadastro" as uc_manter_cadastro
+    usecase "Manter usuario" as uc_manter_usuario
     usecase "Gerar relatórios" as uc_gerar_relatórios
     usecase "Cadastrar-se no sistema" as uc_cadastrar_no_sistema
     usecase "Visualizar eventos" as uc_visualizar_eventos
@@ -42,6 +42,7 @@ rectangle CommunityLink {
     usecase "Obter métricas de anúncios" as uc_obter_metricas_de_anúncios
     usecase "Manter permissões de acesso" as uc_manter_permissões_de_acesso
     usecase "Auditar acessos" as uc_auditar_acessos
+    usecase "Habilitar login com google" as uc_habilitar_login_com_google
     usecase "Realizar backup do sistema" as uc_realizar_backup_do_sistema
     usecase "Auditar acessos" as uc_auditar_acessos
     usecase "Realizar oauth google" as uc_realizar_oauth_google
@@ -58,7 +59,7 @@ rectangle CommunityLink {
 AC -- uc_criar_evento
 AC -- uc_realizar_backup
 AC -- uc_enviar_notificações
-AC -- uc_manter_cadastro
+AC -- uc_manter_usuario
 AC -- uc_gerar_relatórios
 AC -- uc_buscar_eventos_que_ja_participou
 AC -- uc_buscar_membros_ou_eventos
@@ -77,7 +78,8 @@ AS -- uc_manter_permissões_de_acesso
 AS -- uc_auditar_acessos
 AS -- uc_notificar_usuarios_sobre_atualizações
 AS -- uc_realizar_backup_do_sistema
-AS -- uc_manter_cadastro
+AS -- uc_manter_usuario
+AS -- uc_habilitar_login_com_google
 
 UC -- uc_realizar_oauth_google
 UC -- uc_cadastrar_no_sistema
