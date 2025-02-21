@@ -100,7 +100,7 @@ O ator deve estar autenticado no sistema e acessar a opção de backup de dados.
 6. O sistema armazena o backup em um local seguro e exibe uma confirmação ao ator.
 
 **Fluxos alternativos**
-Nenhum.
+- Nenhum.
 
 **Fluxos de exceção**
 - [EX1 - Falta de espaço]: Se não houver espaço suficiente, o sistema exibe uma mensagem de erro e sugere a exclusão de backups antigos.
@@ -192,7 +192,7 @@ O ator deve estar autenticado no sistema e acessar a funcionalidade de relatóri
 4. O sistema disponibiliza o relatório para visualização e download.
 
 **Fluxos alternativos**
-Nenhum.
+- Nenhum.
 
 **Fluxos de exceção**
 - [EX1 - Nenhum dado disponível]: Se não houver dados para o filtro selecionado, o sistema informa ao ator.
@@ -248,7 +248,8 @@ O ator acessa a página de cadastro do sistema.
 3. O ator pode aplicar filtros de busca (categoria, data, local).  
 4. O sistema exibe os eventos de acordo com os filtros aplicados. EX1  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Nenhum evento disponível]: Caso não haja eventos ativos, o sistema informa o usuário.
@@ -270,7 +271,8 @@ O ator acessa a página de cadastro do sistema.
 3. O ator pode editar os seguintes campos: nome, e-mail, telefone, imagem de perfil e preferências.  
 4. O sistema valida e salva as alterações. EX1  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Validação de campos]: Todos os campos obrigatórios devem ser preenchidos corretamente.
@@ -292,7 +294,8 @@ O ator acessa a página de cadastro do sistema.
 3. O ator pode buscar eventos por data, nome ou categoria.  
 4. O sistema exibe os eventos conforme os filtros aplicados.  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Nenhum evento encontrado]: Caso o usuário não tenha participado de eventos, o sistema informa.
@@ -313,9 +316,11 @@ O ator acessa a página de cadastro do sistema.
 2. O sistema exibe o conjunto de diretrizes e regras.  
 3. O ator pode pesquisar por palavras-chave ou categorias de regras.  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
-**Fluxos de exceção:** Nenhum.  
+**Fluxos de exceção:** 
+- Nenhum.  
 
 ---
 
@@ -335,7 +340,8 @@ O ator acessa a página de cadastro do sistema.
 4. O sistema gera um relatório em formato PDF ou CSV. EX1  
 5. O ator realiza o download do relatório.  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Falha na geração do relatório]: Caso ocorra um erro, o sistema exibe uma mensagem e permite uma nova tentativa.
@@ -358,7 +364,8 @@ O ator acessa a página de cadastro do sistema.
 4. O sistema busca os registros correspondentes no banco de dados. EX1
 5. O sistema exibe os resultados correspondentes. EX2  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Nenhum resultado encontrado]: Caso a busca não retorne resultados, o sistema informa o usuário.
@@ -380,9 +387,11 @@ O ator acessa a página de cadastro do sistema.
 2. O sistema exibe informações públicas, como eventos abertos e regras gerais.  
 3. O ator pode navegar pelas informações sem restrições.  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
-**Fluxos de exceção:** Nenhum.
+**Fluxos de exceção:** 
+- Nenhum.
 
 ---
 
@@ -518,9 +527,11 @@ O ator acessa a página de cadastro do sistema.
 4. O sistema configura a autenticação e salva as alterações.
 5. O sistema exibe uma mensagem de sucesso.  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
-**Fluxos de exceção:** Nenhum. 
+**Fluxos de exceção:** 
+- Nenhum. 
 
 ---
 
@@ -615,7 +626,8 @@ O ator acessa a página de cadastro do sistema.
 4. O sistema valida e salva a alteração.
 5. O sistema exibe uma mensagem de confirmação.
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Senha inválida]: Caso a senha não cumpra os requisitos mínimos, o sistema exibe um erro.
@@ -665,7 +677,8 @@ O ator acessa a página de cadastro do sistema.
 4. O sistema valida os dados fornecidos e registra o problema.
 5. O sistema exibe uma confirmação de envio bem-sucedido e notifica a equipe de suporte.
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Dados Incompletos]: Se o usuário não preencher todos os campos obrigatórios, o sistema exibe uma mensagem de erro informando quais informações estão pendentes e solicita a correção antes do envio.
@@ -686,7 +699,8 @@ O ator acessa a página de cadastro do sistema.
 2. O sistema envia uma notificação para os atores sobre a data, horário e duração da manutenção.  
 3. O ator recebe a notificação e pode consultar detalhes sobre a manutenção, se necessário. EX1  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Falha ao enviar notificação]: Se houver erro no envio da notificação, o sistema registra a falha e tenta reenviar automaticamente. Caso o problema persista, um alerta é gerado para os administradores do sistema.  
@@ -708,7 +722,8 @@ O ator acessa a página de cadastro do sistema.
 3. O ator escolhe o idioma desejado (inglês, espanhol ou português).  
 4. O sistema exibe a interface do usuário no idioma selecionado. EX1  
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Idioma não disponível]: Caso o idioma selecionado não esteja disponível, o sistema exibe uma mensagem informando sobre a indisponibilidade e mantém o idioma padrão.
@@ -731,7 +746,8 @@ O ator acessa a página de cadastro do sistema.
 4. O sistema exibe a lista de registros de acesso, incluindo informações como data, horário, IP e tipo de ação realizada. EX1
 5. O ator pode exportar os dados para análise externa, se necessário.
 
-**Fluxos alternativos:** Nenhum.  
+**Fluxos alternativos:** 
+- Nenhum.  
 
 **Fluxos de exceção:**  
 - [EX1 - Falha na Consulta]: Caso ocorra um erro ao recuperar os registros de acesso, o sistema exibe uma mensagem de erro e sugere uma nova tentativa.
