@@ -36,7 +36,7 @@
 
 ## Código UML
 
-[Ver código](../../uml-diagrama-de-classes.md)
+[Ver código](/uml-diagrama-de-classes.md)
 
 
 ---
