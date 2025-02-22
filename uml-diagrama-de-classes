@@ -1,0 +1,95 @@
+```plantuml
+  
+@startuml
+
+' left to right direction
+skinparam classAttributeIconSize 0
+
+class UsuarioDoSistema {
+    + acessarRegrasDePrivacidade() -> void
+    + receberNotificacoesSobreAtualizacoesDoSistema() -> void
+}
+
+class AdministradorDoSistema {
+    - nome : String
+    - email : String
+    - senha : String
+    + notificarUsuariosSobreAtualizacoes() -> void
+    + auditarAcessos() -> void
+    + habilitarLoginComGoogle() -> void
+    + manterPermissoesDeAcesso() -> void
+    + realizarBackupDoSistema() -> void
+    + agendarBackup() -> void
+    + manterUsuario() -> void
+    + alterarEmail() -> void
+    + validarEmail() -> boolean
+    + alterarSenha() -> void
+    + validarSenha() -> boolean
+}
+
+class UsuarioComum {
+    - status : String
+    - nome : String
+    - email : String
+    - senha : String
+    + ativarAutenticacaoEmDoisFatores() -> void
+    + reportarProblemas() -> void
+    + acessarSistemaEmMultiplosIdiomas() -> void
+    + cadastrar() -> void
+    + configurarPerfil() -> void
+    + realizarOauthGoogle() -> void
+    + visualizarEventos() -> void
+    + alterarEmail() -> void
+    + validarEmail() -> boolean
+    + alterarSenha() -> void
+    + validarSenha() -> boolean
+}
+
+class Perfil {
+    - telefone : String
+    - imagemDePerfil : String
+    - preferencias : String
+    + editarNome() -> void
+    + editarEmail() -> void
+    + editarTelefone() -> void
+    + editarImagemDePerfil() -> void
+    + editarPreferencias() -> void
+    + validarDados() -> boolean
+    + salvarAlteracoes() -> void
+}
+
+class MembroDaComunidade {
+    + buscarEventosQueJaParticipou() -> void
+    + buscarMembrosOuEventos() -> void
+    + verRegrasDeParticipacao() -> void
+}
+
+class AdministradorDaComunidade {
+    + gerarRelatorios() -> void
+    + criarEventos() -> void
+    + baixarRelatoriosDeParticipacao() -> void
+    + realizarBackupDeDados() -> void
+    + agendarBackup() -> void
+    + enviarNotificacoes() -> void
+    + buscarEventosQueJaParticipou() -> void
+    + manterUsuario() -> void
+}
+
+class PatrocinadorEParceiros {
+    + promoverAnuncios() -> void
+    + obterMetricas() -> void
+}
+
+class Visitante {
+    + visualizarInformacoesPublicas() -> void
+}
+
+UsuarioDoSistema <|-- AdministradorDoSistema
+UsuarioDoSistema <|-- UsuarioComum
+UsuarioComum *-- Perfil : possui
+UsuarioComum <|-- MembroDaComunidade
+UsuarioComum <|-- AdministradorDaComunidade
+UsuarioComum <|-- PatrocinadorEParceiros
+Visitante -- UsuarioDoSistema : associado a
+
+@enduml
