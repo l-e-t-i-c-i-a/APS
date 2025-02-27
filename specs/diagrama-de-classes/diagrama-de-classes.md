@@ -30,13 +30,13 @@
 
 ---
 ## Diagrama de Classes
-![Diagrama de Classes CommunityLink](/images/diagrama-de-classes.png)
+![Diagrama de Classes CommunityLink](/images/diagrama-de-classes-27fev2025.png)
 
 **Figura 1** - Diagrama de Classes do CommunityLink
 
 ## Código UML
 
-[Ver código](/uml-diagrama-de-classes.md)
+[Ver código](/specs/diagrama-de-classes/uml-diagrama-de-classes.md)
 
 
 ---
